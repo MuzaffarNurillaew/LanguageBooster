@@ -9,6 +9,7 @@ namespace LanguageBooster.Data.Repositories
         private string dbFile;
         private List<TEntity> entities = new List<TEntity>();
 
+        // Constructor
         public Repository()
         {
             if (typeof(TEntity) == typeof(int))
