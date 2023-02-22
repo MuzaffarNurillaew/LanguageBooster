@@ -3,7 +3,14 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Databases\DailyWords\" />
+    <Folder Include="Databases\Podcasts\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
 
 </Project>
